@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset='UTF-8'/>
+		<title>Nicolas Micallef - Contact</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+	</head>
+	<body>
+		<header>
+			<div class="content">
+				<a href="index.html" class="mainLink">Nicolas Micallef</a>
+				<div class="menu">
+					<a href="index.html">CV</a>
+					<a href="hobby.html">Hobby</a>
+					<a href="video.html">Vidéo</a>
+					<a href="contact.html">Contact</a>
+					<a href="https://www.open.global/fr" target="_blank">Open Groupe</a>
+				</div>
+			</div>
+		</header>
+		<div class="content">
+			<h1>Formulaire de contact</h1>
+			<form method="post" action="https://httpbin.org/post">
+					<label for="nom">Nom</label> : <input type="text" name="nom" id="nom" placeholder="Votre nom" />
+					<label for="email">Email</label> : <input type="email" name="mail" id="email" placeholder="Votre email" required />
+					<div class="radio">
+						Vous êtes : 
+						<input type="radio" name="choix" value="entreprise" checked /> <label for="entreprise">Une entreprise</label>
+       					<input type="radio" name="choix" value="particulier"/> <label for="particulier">Un particulier</label>
+					</div>
+       				<label for="type">Objet :</label><br/>
+      				<select name="type" id="type">
+      				    <option value="type1">Réalisation graphique</option>
+      				    <option value="type2">Création de site</option>
+      				    <option value="type3">Conseil</option>
+      				    <option value="type4">Autre</option>
+      				</select>
+					<label for="commentaire">Commentaire</label> :<br/> <textarea name="commentaire" id="commentaire"></textarea>
+					<br/>
+					<input type="submit" value="Envoyer" class="bouton" />
+			</form>
+		</div>
+	</body>
+</html>

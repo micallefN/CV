@@ -1,0 +1,155 @@
+body{
+	margin: 0;
+	color: #3F3F3F;
+	font-family: "Arial";
+	font-size: 14px;
+	background-image: url('../images/background.jpg');
+}
+header{
+	padding: 5px;
+	background-color: #001f34;
+	margin-bottom: 20px;
+}
+header a{
+	text-decoration: none;
+	color: white;
+	padding: 18px 12px;
+}
+header .menu a:hover{
+	background-color: white;
+	color: #3f3f3f;
+}
+header .menu{
+	float: right;
+}
+.bold{
+	font-weight: bold;
+}
+.bleu{
+	color: #165481;
+}
+section{
+	padding: 0 25px;
+}
+section img{
+	width: 130px;
+	border-radius: 66px;
+}
+h1{
+	font-size: 30px;
+}
+ol li{
+	padding: 5px;
+}
+#conteneur{
+	display: flex;
+	justify-content: space-between;
+}
+iframe{
+	margin-top: 20px;
+}
+.content{
+	max-width: 960px;
+	min-width: 570px;
+	margin: auto;
+	padding: 10px;
+}
+#nom, #email{
+	width: 937px;
+	border-radius: 5px;
+	border: 1px solid grey;
+	padding: 10px;
+	margin: 10px 0 20px 0;
+}
+.mainLink{
+	padding-left: 0px;
+}
+.radio{
+	margin: 0 0 20px 0;
+}
+.radio input{
+	margin-left: 25px;
+}
+form select{
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid grey;
+	margin: 10px 0 20px 0;
+}
+form textarea{
+	width: 947px;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid grey;
+	margin: 10px 0 20px 0;
+}
+form .bouton{
+	margin-top: 20px;
+	float: right;
+	border-radius: 5px;
+	border: 1px solid #007bff;
+	background-color: #001f34;
+	color: white;
+	padding: 10px 15px;
+	cursor: pointer;
+}
+form .bouton:hover{
+	border: 1px solid #0062cc;
+	background-color: #0069d9;
+}
+video{
+	width: 100%;
+	height: 500px;
+}
+.w3-border, .w3-grey{
+	border-radius: 3px;
+}
+.w3-border{
+	height: 15px;
+}
+.w3-grey{
+	height: 14px;
+	background-color: #165481 !important;
+}
+.maincv{
+	width: 50%;
+	float: left;
+	padding: 10px;
+}
+.enddiv{
+	clear: both;
+	margin-bottom: 20px;
+}
+.maincv h3{
+	border-bottom: 1px solid #165481;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	font-weight: bold;
+	font-size: 25px;
+	padding-bottom: 5px;
+}
+.maincv h4{
+	color: #165481;
+	font-weight: bold;
+	font-size: 20px;
+}
+.maincv table{
+	width: 100%;
+}
+.maincv table td{
+	width: 50%;
+	padding: 10px;
+}
+.nom{
+	font-weight: bold;
+	font-size: 36px;
+	color: #165481;
+}
+@media screen and (max-width: 960px) {
+  	.maincv{
+		width: 100%;
+		float: none;
+	}
+}
+
