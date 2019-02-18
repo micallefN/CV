@@ -2,7 +2,7 @@ body{
 	margin: 0;
 	color: #3F3F3F;
 	font-family: "Arial";
-	font-size: 14px;
+	font-size: 18px;
 	background-image: url('../images/background.jpg');
 }
 header{
@@ -17,7 +17,7 @@ header a{
 }
 header .menu a:hover{
 	background-color: white;
-	color: #3f3f3f;
+	color: #8f8f8f;
 }
 header .menu{
 	float: right;
@@ -26,7 +26,7 @@ header .menu{
 	font-weight: bold;
 }
 .bleu{
-	color: #165481;
+	color: #165411;
 }
 section{
 	padding: 0 25px;
